@@ -1,0 +1,15 @@
+**Figure 1 — Bound propagation (SoftBand24).**
+
+Information and correlations propagate with bounded rate and reach, not instant collapse.  
+The soft boundary limits influence speed (physics: Lieb–Robinson) and interaction scope  
+(ML: attention sparsity), while exchange and memory persist inside the band.
+figures/0001-bound-propagation-softband24.png
+
+Alt-Text
+
+Bound propagation (SoftBand24)
+Diagram showing information propagation constrained by a soft band rather than instant collapse. A central interaction point emits paired exchanges (2 = 1 + 1) that spread outward inside a shaded cone. The cone boundary marks a rate-and-reach limit, not an endpoint. Inside the cone, correlations persist and redistribute; outside, no immediate influence appears. Labels compare physics and ML: “Lieb–Robinson bound (correlation speed limit)” aligned with “attention sparsity / routing windows (locality constraint).” A caption reads: “Bounds limit how fast and how far exchange propagates — not existence, memory, or continuity.”
+
+Abbreviated:
+Information spreads within soft bounds (rate + reach), not collapse. Like Lieb–Robinson cones or attention sparsity, exchange persists inside limits: 2=1+1, bounded—not finite.
+
